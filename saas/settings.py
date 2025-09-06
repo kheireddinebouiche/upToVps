@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-#v$=n2u#^veljtjk*)+d&!hhm=*&=p7dle7p6_u-5w8gq_4+th'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['184.174.33.78', 'www.insim360.com', '127.0.0.1','localhost']
+ALLOWED_HOSTS = ['184.174.33.78', 'www.insim360.com','insim360.com']
 
 
 # Application definition
